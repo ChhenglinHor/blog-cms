@@ -194,10 +194,6 @@
             <div class="card">
             <!-- Card image -->
             <div class="view zoom overlay">
-               <div class="header_info">
-                  <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                  <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-                </div>
               <img class="card-img-top" src="/storage/<?php echo $art->image; ?>" alt="Card image cap">
               <a href="{{url('detail',$art->id)}}">
                 <div class="mask rgba-white-slight"></div>
@@ -243,10 +239,6 @@
                     <div class="card nearitem wow fadeInLeft">
                         <!-- Card image -->
                         <div class="view zoom overlay">
-                          <div class="header_info">
-                              <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                              <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-                            </div>
                           <img class="card-img-top" src="/storage/<?php echo $sad[$i]->image; ?>" alt="Card image cap">
                           <a href="{{url('detail',$sad[$i]->id)}}">
                             <div class="mask rgba-white-slight"></div>
@@ -281,10 +273,6 @@
                     <div class="card nearitem wow fadeInLeft">
                         <!-- Card image -->
                         <div class="view zoom overlay">
-                          <div class="header_info">
-                              <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                              <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-                            </div>
                           <img class="card-img-top" src="/storage/<?php echo $sad[$i]->image; ?>" alt="Card image cap">
                           <a href="{{url('detail',$sad[$i]->id)}}">
                             <div class="mask rgba-white-slight"></div>
@@ -315,10 +303,6 @@
               <div class="card nearitem nearitem">
                 <!-- Card image -->
                 <div class="view zoom overlay" style="    height: 500px;">
-                    <div class="header_info">
-                        <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                        <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-                    </div>
                     <img class="card-img-top" src="/storage/<?php echo $sad[2]->image; ?>" alt="Card image cap">
                     <a href="{{url('detail',$sad[2]->id)}}">
                     <div class="mask rgba-white-slight"></div>
@@ -350,10 +334,6 @@
                     <div class="card nearitem wow fadeInLeft">
                         <!-- Card image -->
                         <div class="view zoom overlay">
-                          <div class="header_info">
-                              <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                              <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-                            </div>
                           <img class="card-img-top" src="/storage/<?php echo $sad[$i]->image; ?>" alt="Card image cap">
                           <a href="{{url('detail',$sad[$i]->id)}}">
                             <div class="mask rgba-white-slight"></div>
@@ -384,10 +364,6 @@
               <div class="card middlecard nearitem">
                 <!-- Card image -->
                 <div class="view zoom overlay" style="    height: 500px;">
-                    <div class="header_info">
-                        <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                        <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-                    </div>
                     <img class="card-img-top" src="/storage/<?php echo $sad[2]->image; ?>" alt="Card image cap">
                     <a href="{{url('detail',$sad[2]->id)}}">
                     <div class="mask rgba-white-slight"></div>
@@ -418,10 +394,6 @@
                     <div class="card nearitem wow fadeInLeft">
                         <!-- Card image -->
                         <div class="view zoom overlay">
-                          <div class="header_info">
-                              <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                              <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-                            </div>
                           <img class="card-img-top" src="/storage/<?php echo $sad[$i]->image; ?>" alt="Card image cap">
                           <a href="{{url('detail',$sad[$i]->id)}}">
                             <div class="mask rgba-white-slight"></div>
@@ -470,10 +442,6 @@
                 <div class="card">
                   <!-- Card image -->
                   <div class="view zoom overlay">
-                     <div class="header_info">
-                        <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                        <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-                      </div>
                     <img class="card-img-top" src="/storage/<?php echo $marry[$i]->image; ?>" alt="Card image cap">
                     <a href="{{url('detail',$marry[$i]->id)}}">
                       <div class="mask rgba-white-slight"></div>
@@ -507,10 +475,6 @@
             <div class="card middlecard2">
             <!-- Card image -->
             <div class="view zoom overlay" style="    height: 500px;">
-               <div class="header_info">
-                  <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                  <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-                </div>
               <img class="card-img-top" src="/storage/<?php echo $marry[4]->image;?>" alt="Card image cap">
               <a href="{{url('detail',$marry[4]->id)}}">
                 <div class="mask rgba-white-slight"></div>

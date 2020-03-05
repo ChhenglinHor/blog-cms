@@ -51,21 +51,7 @@
 
         <!-- Right -->
         <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a href="#" class="nav-link socialhead">
-              <img src="{{asset('template/images/facebook.png')}}">
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link socialhead">
-              <img src="{{asset('template/images/twitter.png')}}">
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link socialhead">
-              <img src="{{asset('template/images/instagram.png')}}">
-            </a>
-          </li>
+          
           @if( auth()->check() )
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
