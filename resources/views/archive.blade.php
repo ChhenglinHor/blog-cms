@@ -5,7 +5,7 @@
   @if($cate == 'couple')
   <img src="{{asset('template/images/top3.jpg')}}" class="bannerCarousel">
   <div class="slash_archive">
-      <a href="#" class="menuslash">Home <span style="color: #000;margin-top: -1px;">></span> </a><a href="#" class="menuslash"> Travel </a>
+      <a href="#" class="menuslash">Home <span style="color: #000;margin-top: -1px;">></span> </a><a href="#" class="menuslash"> Things </a>
   </div>
   @elseif($cate == 'broken')
   <img src="{{asset('template/images/top4.jpg')}}" class="bannerCarousel">
@@ -15,7 +15,7 @@
   @elseif($cate == 'marry')
     <img src="{{asset('template/images/top5.jpg')}}" class="bannerCarousel">
     <div class="slash_archive archivemarry">
-          <a href="#" class="menuslash">Home <span style="color: #000;margin-top: -1px;">></span> </a><a href="#" class="menuslash"> Things </a>
+          <a href="#" class="menuslash">Home <span style="color: #000;margin-top: -1px;">></span> </a><a href="#" class="menuslash"> Travel </a>
       </div>
   @endif
 </div>

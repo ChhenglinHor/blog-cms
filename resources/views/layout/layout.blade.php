@@ -36,7 +36,7 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="{{url('archive/couple')}}">Travel
+            <a class="nav-link" href="{{url('archive/couple')}}">Things
             </a>
           </li>
           <li class="nav-item">
@@ -44,7 +44,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{url('archive/marry')}}">Things
+            <a class="nav-link" href="{{url('archive/marry')}}">Travel
             </a>
           </li>
         </ul>

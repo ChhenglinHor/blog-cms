@@ -18,7 +18,7 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="archive/couple">Travel
+            <a class="nav-link" href="archive/couple">Things
             </a>
           </li>
           <li class="nav-item">
@@ -26,7 +26,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="archive/marry">Things
+            <a class="nav-link" href="archive/marry">Travel
             </a>
           </li>
         </ul>
@@ -183,7 +183,7 @@
     <div class="container">
       <!-- category 1 -->
       <section>
-        <h2 class="title_cloth">Travel</h2>
+        <h2 class="title_cloth">Things</h2>
         <div class="border_title">
           <span><a href="/archive/couple">More</a></span>
         </div>
@@ -428,7 +428,7 @@
     <div class="container">
       <!-- category 3 -->
       <section>
-        <h2 class="title_cloth title_marry marry">Things</h2>
+        <h2 class="title_cloth title_marry marry">Travel</h2>
         <div class="border_title border_title_marry">
           <span><a href="/archive/marry" class="marry">More</a></span>
         </div>
