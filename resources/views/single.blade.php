@@ -1,17 +1,17 @@
 @extends('layout/layout')
 @section('container')
 <div class="slash">
-    <a href="#" class="menuslash">ទំព័រដើម 
+    <a href="#" class="menuslash">Home 
       <span style="color: #333;margin-top: -1px;">></span> 
     </a>
-    <a href="#" class="menuslash"> អត្ថបទ <span style="color: #333;">></span> 
+    <a href="#" class="menuslash"> Article <span style="color: #333;">></span> 
     </a>
     @if($cate == 'couple')
-    <a href="#" class="menuslash" style="text-decoration: underline;">គូស្នេហ៍</a>
+    <a href="#" class="menuslash" style="text-decoration: underline;">Travel</a>
     @elseif($cate == 'broken')
-    <a href="#" class="menuslash" style="text-decoration: underline;">ខូចចិត្ត</a>
+    <a href="#" class="menuslash" style="text-decoration: underline;">Technology</a>
     @elseif($cate == 'marry')
-    <a href="#" class="menuslash" style="text-decoration: underline;">អាពាហ៍ពិពាហ៍</a>
+    <a href="#" class="menuslash" style="text-decoration: underline;">Things</a>
     @endif
 </div>
 <hr class="mb-4" >
@@ -46,19 +46,6 @@
               {!!$detail[0]->des!!}
 
             </p>
-            <a href="forum_single.html" class="answer float-left">
-                <span><img src="{{asset('template/images/ic_answer.png')}}"></span>
-                <span class="regular_font-12 textsmall textblack">                     
-                    <span>0</span>
-                    <span>comment</span>
-                </span>
-            </a>
-            <a href="#" class="answer float-left" style="margin-left: 10px;">
-                <i class="fas fa-heart" style="color: #f16c73;"></i>
-                <span class="regular_font-12 textsmall textblack">                     
-                    <span>200</span>
-                </span>
-            </a>
             <span class="article_date regular_font-12 float-right">
                 <span><img src="{{asset('template/images/ic_time.png')}}"><small>
                   <?php $newDate = date("d-m-Y", strtotime($detail[0]->created_at)); ?>
@@ -123,7 +110,7 @@
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft nearitem">
+    <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft nearitem">
       <div class="latestpost">
         <h3>អត្ថបទពេញនិយម</h3>
         <div class="eachpost">
@@ -163,7 +150,7 @@
           <div class="clearfix"></div>
         </div>
       </div>
-    </div>
+    </div> -->
     
   </div> 
 </section> 

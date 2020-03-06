@@ -31,10 +31,6 @@
           <div class="card">
           <!-- Card image -->
           <div class="view zoom overlay">
-             <div class="header_info">
-                <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-              </div>
             <img class="card-img-top" src="/storage/<?php echo $art->image; ?>" alt="Card image cap">
             <a href="{{url('detail',$art->id)}}">
               <div class="mask rgba-white-slight"></div>
@@ -69,10 +65,6 @@
           <div class="card">
           <!-- Card image -->
           <div class="view zoom overlay">
-             <div class="header_info">
-                <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-              </div>
             <img class="card-img-top" src="/storage/<?php echo $art->image; ?>" alt="Card image cap">
             <a href="{{url('detail',$art->id)}}">
               <div class="mask rgba-white-slight"></div>
@@ -108,12 +100,7 @@
           <div class="card">
           <!-- Card image -->
           <div class="view zoom overlay">
-             <div class="header_info">
-                <button title="Share" class="btn-primary btn-floating_top displayright"><i class="fas fa-share-alt"></i></button>
-                <button data-toggle="tooltip" title="Added to Wishlist" class="btn-primary btn-floating_top displayright"><i class="fas fa-heart"></i></button>
-              </div>
-            <img style="    width: 350px;
-    height: 233px;" class="card-img-top" src="/storage/<?php echo $art->image; ?>" alt="Card image cap">
+            <img style="    width: 350px; height: 233px;" class="card-img-top" src="/storage/<?php echo $art->image; ?>" alt="Card image cap">
             <a href="{{url('detail',$art->id)}}">
               <div class="mask rgba-white-slight"></div>
             </a>
@@ -143,28 +130,4 @@
 		@endif
       </div>
     </section>
-    <!-- pagination -->
-     <!--  <div class="col-lg-12 d-flex justify-content-center">
-        <nav style="display: block;margin: 0 auto;">
-          <ul class="pagination pg-blue">
-            <li class="page-item">
-              <a class="page-link" aria-label="Previous">
-                <span aria-hidden="true">&laquo;</span>
-                <span class="sr-only">Previous</span>
-              </a>
-            </li>
-            <li class="page-item active"><a class="page-link">1</a></li>
-            <li class="page-item"><a class="page-link">2</a></li>
-            <li class="page-item"><a class="page-link">3</a></li>
-            <li class="page-item"><a class="page-link">4</a></li>
-            <li class="page-item"><a class="page-link">5</a></li>
-            <li class="page-item">
-              <a class="page-link" aria-label="Next">
-                <span aria-hidden="true">&raquo;</span>
-                <span class="sr-only">Next</span>
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div> -->
 @endsection
