@@ -58,8 +58,8 @@
   </nav>
 <!-- End Navbar -->
 <!--Carousel Wrapper-->
-  <div class="row nopadmar carouselpc">
-      <div class="col-lg-8 col-md-8 col-sm-12 col-12 nopadmar maxheight">
+  <div class="row nopadmar carouselpc" style="width: 100%">
+      <div class="nopadmar maxheight" style="width: 100%">
           <div class="bigslide">
             <!-- <img class="card-img-top" src="{{asset('template/images/love.jpg')}}" alt="Card image cap"> -->
             <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
