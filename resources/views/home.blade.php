@@ -110,74 +110,8 @@
             <!--/.Carousel Wrapper-->
           </div>
       </div>
-      <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-12 nopadmar maxheight">
-          <div class="smallslide1">
-            <div class="carousel-caption smallcap">
-              <h3 class="cursorpoint" >៧ វិធីសាស្រ្ដកែស្ថានភាពពីសោះកក្រោះទៅជារីករាយពេលណាត់ជួប</h3>
-            </div>
-            <img class="card-img-top" src="{{asset('template/images/couple8.jpg')}}" alt="Card image cap">
-          </div>
-          <div class="smallslide2">
-            <div class="carousel-caption smallcap">
-              <h3 class="cursorpoint" >ធ្វើបាន ១០ ចំណុចនេះ រក្សាស្នេហ៍អ្នកលុះអវសាន</h3>
-            </div>
-            <img class="card-img-top" src="{{asset('template/images/couple9.jpg')}}" alt="Card image cap">
-          </div>
-      </div> -->
+      </div> 
   </div>
-  <!-- carousel rsp -->
-  <!-- <div class="row nopadmar carouselrsp">
-    <div class="col-12 nopadmar">
-      <div id="carousel-example-3" class="carousel slide carousel-fade" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-3" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-3" data-slide-to="1"></li>
-                <li data-target="#carousel-example-3" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner" role="listbox" style="height: auto;">
-                <div class="carousel-item active">
-                  <div class="view">
-                    <img class="d-block w-100" src="{{asset('template/images/love.jpg')}}"
-                      alt="First slide">
-                    <div class="mask rgba-black-light"></div>
-                  </div>
-                  <div class="carousel-caption">
-                    <h3 class="h3-responsive text-left cursorpoint" >តើយើងគួរបន្ត ឬបញ្ចប់នៅពេលដែលមនុស្សដែលយើងស្រឡាញ់ គេមានមនុស្សក្នុងចិត្តរួចហើយ?</h3>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="view">
-                    <img class="d-block w-100" src="{{asset('template/images/carousel1.jpg')}}"
-                      alt="Second slide">
-                    <div class="mask rgba-black-strong"></div>
-                  </div>
-                  <div class="carousel-caption">
-                    <h3 class="h3-responsive cursorpoint" >ហេតុអ្វីស្រឡាញ់គ្នាចាំបាច់ Private តែពីរនាក់?</h3>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="view">
-                    <img class="d-block w-100" src="{{asset('template/images/carousel2.jpg')}}"
-                      alt="Third slide">
-                    <div class="mask rgba-black-slight"></div>
-                  </div>
-                  <div class="carousel-caption">
-                    <h3 class="h3-responsive cursorpoint" >ធ្វើយ៉ាងណាដើម្បីបំភ្លេចគេបាន?</h3>
-                  </div>
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carousel-example-3" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carousel-example-3" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
-    </div>
-  </div> -->
-  <!--/.Carousel Wrapper-->
   <hr class="mb-5" style="border: none;">
   <main>
     <div class="container">

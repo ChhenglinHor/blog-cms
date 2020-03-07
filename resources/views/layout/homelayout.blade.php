@@ -47,19 +47,18 @@
 
           <ul class="list-unstyled">
             <li>
-              <img src="{{asset('template/images/couple6.jpg')}}">
-              <a href="#!">៥ ចំណុចដើម្បីផ្គាប់ចិត្ដមិត្ដស្រី...</a>
+              <img src="{{asset('template/images/3.jpeg')}}">
+              <a href="#!">The JavaScript landscape in 2020</a>
             </li>
             <li>
-              <img src="{{asset('template/images/couple1.jpg')}}">
-              <a href="#!">ហេតុអ្វីស្រឡាញ់គ្នាចាំបាច់ Private ...</a>
+              <img src="{{asset('template/images/2.jpeg')}}">
+              <a href="#!">6 Must-Use Tools for Front-End</a>
             </li>
             <li>
-              <img src="{{asset('template/images/couple10.jpg')}}">
-              <a href="#!">ធ្វើយ៉ាងណាដើម្បីបំភ្លេចគេបាន?</a>
+              <img src="{{asset('template/images/1.jpeg')}}">
+              <a href="#!">GitHub Repos That Should Be Starred...</a>
             </li>
           </ul>
-
         </div>
         <!-- Grid column -->
 
