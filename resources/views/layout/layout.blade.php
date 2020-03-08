@@ -36,15 +36,15 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="{{url('archive/couple')}}">Things
+            <a class="nav-link" href="{{url('archive/technology')}}">Technology
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{url('archive/broken')}}">Technology
+            <a class="nav-link" href="{{url('archive/thing')}}">Things
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{url('archive/marry')}}">Travel
+            <a class="nav-link" href="{{url('archive/travel')}}">Travel
             </a>
           </li>
         </ul>

@@ -18,15 +18,15 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="archive/couple">Things
+            <a class="nav-link" href="archive/technology">Technology
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="archive/broken">Technology
+            <a class="nav-link" href="archive/thing">Things
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="archive/marry">Travel
+            <a class="nav-link" href="archive/travel">Travel
             </a>
           </li>
         </ul>
@@ -119,10 +119,10 @@
       <section>
         <h2 class="title_cloth">Things</h2>
         <div class="border_title">
-          <span><a href="/archive/couple">More</a></span>
+          <span><a href="/archive/thing">More</a></span>
         </div>
         <div class="row">
-          @foreach($couple as $art)
+          @foreach($thing as $art)
           <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
             <!-- Card -->
             <div class="card">
@@ -163,18 +163,18 @@
       <section>
         <h2 class="title_cloth title_broken broken">Technology</h2>
         <div class="border_title border_title_broken">
-          <span><a href="/archive/broken" class="broken">More</a></span>
+          <span><a href="/archive/technology" class="broken">More</a></span>
         </div>
         <div class="row">
-          @if(count($sad)<=2)
+          @if(count($technology)<=2)
               <div class="col-lg-3">
                 @for($i=0;$i< 2; $i++)
-                  @if(isset($sad[$i]))
+                  @if(isset($technology[$i]))
                     <div class="card nearitem wow fadeInLeft">
                         <!-- Card image -->
                         <div class="view zoom overlay">
-                          <img class="card-img-top" src="/storage/<?php echo $sad[$i]->image; ?>" alt="Card image cap">
-                          <a href="{{url('detail',$sad[$i]->id)}}">
+                          <img class="card-img-top" src="/storage/<?php echo $technology[$i]->image; ?>" alt="Card image cap">
+                          <a href="{{url('detail',$technology[$i]->id)}}">
                             <div class="mask rgba-white-slight"></div>
                           </a>
                         </div>
@@ -184,12 +184,12 @@
                           <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i>              <a href="{{url('detail',$art->id)}}">
 </button>
                           <!-- Title -->
-                          <h4 class="card-title">{{ $sad[0]->title}}</h4>
+                          <h4 class="card-title">{{ $technology[0]->title}}</h4>
                           <!-- Text -->
                           <p class="card-text">
                             
                             <?php 
-                              $str  = substr(strip_tags($sad[$i]->des), 0,330);
+                              $str  = substr(strip_tags($thing[$i]->des), 0,330);
                             echo $str.'...'; ?>
 
                           </p>
@@ -200,15 +200,15 @@
                 @endfor
               </div>
           @endif
-          @if(count($sad)==3)
+          @if(count($technology)==3)
             <div class="col-lg-3">
                 @for($i=0;$i< 2; $i++)
-                  @if(isset($sad[$i]))
+                  @if(isset($technology[$i]))
                     <div class="card nearitem wow fadeInLeft">
                         <!-- Card image -->
                         <div class="view zoom overlay">
-                          <img class="card-img-top" src="/storage/<?php echo $sad[$i]->image; ?>" alt="Card image cap">
-                          <a href="{{url('detail',$sad[$i]->id)}}">
+                          <img class="card-img-top" src="/storage/<?php echo $technology[$i]->image; ?>" alt="Card image cap">
+                          <a href="{{url('detail',$technology[$i]->id)}}">
                             <div class="mask rgba-white-slight"></div>
                           </a>
                         </div>
@@ -217,12 +217,12 @@
                         <div class="card-body">
                           <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i></button>
                           <!-- Title -->
-                          <h4 class="card-title">{{ $sad[0]->title}}</h4>
+                          <h4 class="card-title">{{ $technology[0]->title}}</h4>
                           <!-- Text -->
                           <p class="card-text">
                             
                             <?php 
-                              $str  = substr(strip_tags($sad[$i]->des), 0,330);
+                              $str  = substr(strip_tags($technology[$i]->des), 0,330);
                             echo $str.'...'; ?>
 
                           </p>
@@ -237,8 +237,8 @@
               <div class="card nearitem nearitem">
                 <!-- Card image -->
                 <div class="view zoom overlay" style="    height: 500px;">
-                    <img class="card-img-top" src="/storage/<?php echo $sad[2]->image; ?>" alt="Card image cap">
-                    <a href="{{url('detail',$sad[2]->id)}}">
+                    <img class="card-img-top" src="/storage/<?php echo $technology[2]->image; ?>" alt="Card image cap">
+                    <a href="{{url('detail',$technology[2]->id)}}">
                     <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -247,12 +247,12 @@
                 <div class="card-body">
                     <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i></button>
                     <!-- Title -->
-                    <h4 class="card-title">{{ $sad[2]->title}}</h4>
+                    <h4 class="card-title">{{ $technology[2]->title}}</h4>
                         <!-- Text -->
                         <p class="card-text">
                         
                         <?php 
-                            $str  = substr(strip_tags($sad[2]->des), 0,330);
+                            $str  = substr(strip_tags($technology[2]->des), 0,330);
                         echo $str.'...'; ?>
 
                         </p>                  
@@ -261,15 +261,15 @@
               <!-- Card -->
             </div>
           @endif
-          @if(count($sad)>3)
+          @if(count($technology)>3)
             <div class="col-lg-3">
                 @for($i=0;$i< 2; $i++)
-                  @if(isset($sad[$i]))
+                  @if(isset($technology[$i]))
                     <div class="card nearitem wow fadeInLeft">
                         <!-- Card image -->
                         <div class="view zoom overlay">
-                          <img class="card-img-top" src="/storage/<?php echo $sad[$i]->image; ?>" alt="Card image cap">
-                          <a href="{{url('detail',$sad[$i]->id)}}">
+                          <img class="card-img-top" src="/storage/<?php echo $technology[$i]->image; ?>" alt="Card image cap">
+                          <a href="{{url('detail',$technology[$i]->id)}}">
                             <div class="mask rgba-white-slight"></div>
                           </a>
                         </div>
@@ -278,12 +278,12 @@
                         <div class="card-body">
                           <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i></button>
                           <!-- Title -->
-                          <h4 class="card-title">{{ $sad[0]->title}}</h4>
+                          <h4 class="card-title">{{ $technology[0]->title}}</h4>
                           <!-- Text -->
                           <p class="card-text">
                             
                             <?php 
-                              $str  = substr(strip_tags($sad[$i]->des), 0,330);
+                              $str  = substr(strip_tags($technology[$i]->des), 0,330);
                             echo $str.'...'; ?>
 
                           </p>
@@ -298,8 +298,8 @@
               <div class="card middlecard nearitem">
                 <!-- Card image -->
                 <div class="view zoom overlay" style="    height: 500px;">
-                    <img class="card-img-top" src="/storage/<?php echo $sad[2]->image; ?>" alt="Card image cap">
-                    <a href="{{url('detail',$sad[2]->id)}}">
+                    <img class="card-img-top" src="/storage/<?php echo $technology[2]->image; ?>" alt="Card image cap">
+                    <a href="{{url('detail',$technology[2]->id)}}">
                     <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -308,12 +308,12 @@
                 <div class="card-body">
                     <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i></button>
                     <!-- Title -->
-                    <h4 class="card-title">{{ $sad[2]->title}}</h4>
+                    <h4 class="card-title">{{ $technology[2]->title}}</h4>
                         <!-- Text -->
                         <p class="card-text">
                         
                         <?php 
-                            $str  = substr(strip_tags($sad[2]->des), 0,330);
+                            $str  = substr(strip_tags($technology[2]->des), 0,330);
                         echo $str.'...'; ?>
 
                         </p>
@@ -324,12 +324,12 @@
             </div>
             <div class="col-lg-3">
                 @for($i=3;$i< 5; $i++)
-                  @if(isset($sad[$i]))
+                  @if(isset($technology[$i]))
                     <div class="card nearitem wow fadeInLeft">
                         <!-- Card image -->
                         <div class="view zoom overlay">
-                          <img class="card-img-top" src="/storage/<?php echo $sad[$i]->image; ?>" alt="Card image cap">
-                          <a href="{{url('detail',$sad[$i]->id)}}">
+                          <img class="card-img-top" src="/storage/<?php echo $technology[$i]->image; ?>" alt="Card image cap">
+                          <a href="{{url('detail',$technology[$i]->id)}}">
                             <div class="mask rgba-white-slight"></div>
                           </a>
                         </div>
@@ -338,12 +338,12 @@
                         <div class="card-body">
                           <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i></button>
                           <!-- Title -->
-                          <h4 class="card-title">{{ $sad[0]->title}}</h4>
+                          <h4 class="card-title">{{ $technology[0]->title}}</h4>
                           <!-- Text -->
                           <p class="card-text">
                             
                             <?php 
-                              $str  = substr(strip_tags($sad[$i]->des), 0,330);
+                              $str  = substr(strip_tags($technology[$i]->des), 0,330);
                             echo $str.'...'; ?>
 
                           </p>
@@ -364,20 +364,20 @@
       <section>
         <h2 class="title_cloth title_marry marry">Travel</h2>
         <div class="border_title border_title_marry">
-          <span><a href="/archive/marry" class="marry">More</a></span>
+          <span><a href="/archive/travel" class="marry">More</a></span>
         </div>
         <div class="row">
           <div class="col-lg-7 col-md-8 col-sm-12 col-12 flex-center nearitem">
             <div class="row">
               @for($i=0;$i< 4; $i++)
-              @if(isset($marry[$i]))
+              @if(isset($travel[$i]))
               <div class="col-ld-6 col-md-6 col-sm-12 col-12 wow fadeInUp nearitem">
                 <!-- Card -->
                 <div class="card">
                   <!-- Card image -->
                   <div class="view zoom overlay">
-                    <img class="card-img-top" src="/storage/<?php echo $marry[$i]->image; ?>" alt="Card image cap">
-                    <a href="{{url('detail',$marry[$i]->id)}}">
+                    <img class="card-img-top" src="/storage/<?php echo $travel[$i]->image; ?>" alt="Card image cap">
+                    <a href="{{url('detail',$travel[$i]->id)}}">
                       <div class="mask rgba-white-slight"></div>
                     </a>
                   </div>
@@ -386,11 +386,11 @@
                   <div class="card-body">
                     <button class="btn-floating btn-primary morebutton btnmarry" ><i class="fas fa-angle-right"></i></button>
                     <!-- Title -->
-                    <h4 class="card-title">{{ $marry[$i]->title}}</h4>
+                    <h4 class="card-title">{{ $travel[$i]->title}}</h4>
                     <!-- Text -->
                     <p class="card-text">
                        <?php 
-                          $str  = substr(strip_tags($marry[$i]->des), 0,330);
+                          $str  = substr(strip_tags($travel[$i]->des), 0,330);
                         echo $str.'...'; ?></p>
                     <!-- Button -->
                   </div>
@@ -403,14 +403,14 @@
             </div>
           </div>
 
-          @if(isset($marry[4]))
+          @if(isset($travel[4]))
           <div class="col-lg-5 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem wow fadeInRight">
             <!-- Card -->
             <div class="card middlecard2">
             <!-- Card image -->
             <div class="view zoom overlay" style="    height: 500px;">
-              <img class="card-img-top" src="/storage/<?php echo $marry[4]->image;?>" alt="Card image cap">
-              <a href="{{url('detail',$marry[4]->id)}}">
+              <img class="card-img-top" src="/storage/<?php echo $travel[4]->image;?>" alt="Card image cap">
+              <a href="{{url('detail',$travel[4]->id)}}">
                 <div class="mask rgba-white-slight"></div>
               </a>
             </div>
@@ -419,12 +419,12 @@
             <div class="card-body">
               <button class="btn-floating btn-primary morebutton btnmarry" ><i class="fas fa-angle-right"></i></button>
               <!-- Title -->
-              <h4 class="card-title">{{ $marry[4]->title}}</h4>
+              <h4 class="card-title">{{ $travel[4]->title}}</h4>
                 <!-- Text -->
                 <p class="card-text">
                   
                   <?php 
-                    $str  = substr(strip_tags($marry[4]->des), 0,330);
+                    $str  = substr(strip_tags($travel[4]->des), 0,330);
                   echo $str.'...'; ?>
 
                 </p>

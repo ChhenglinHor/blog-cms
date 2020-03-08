@@ -6,12 +6,12 @@
     </a>
     <a href="#" class="menuslash"> Article <span style="color: #333;">></span> 
     </a>
-    @if($cate == 'couple')
-    <a href="#" class="menuslash" style="text-decoration: underline;">Travel</a>
-    @elseif($cate == 'broken')
+    @if($cate == 'technology')
     <a href="#" class="menuslash" style="text-decoration: underline;">Technology</a>
-    @elseif($cate == 'marry')
+    @elseif($cate == 'thing')
     <a href="#" class="menuslash" style="text-decoration: underline;">Things</a>
+    @elseif($cate == 'travel')
+    <a href="#" class="menuslash" style="text-decoration: underline;">Travel</a>
     @endif
 </div>
 <hr class="mb-4" >
@@ -109,49 +109,7 @@
           </div>
         </div>
       </div>
-    </div>
-    <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft nearitem">
-      <div class="latestpost">
-        <h3>អត្ថបទពេញនិយម</h3>
-        <div class="eachpost">
-          <img src="{{asset('template/images/couple6.jpg')}}">
-          <a href="#!" style="margin: 0;">៥ ចំណុចដើម្បីផ្គាប់ចិត្ដមិត្ដស្រីពេលណាត់ជួប</a>
-          <i class="fas fa-heart"></i> <span style="color: grey;">10.4K</span>
-          <span class="article_date regular_font-12">
-                <span>
-                  <img src="{{asset('template/images/ic_time.png')}}">
-                  <small> 1 ថ្ងៃមុន</small>
-                </span>
-          </span>
-          <div class="clearfix"></div>
-        </div>
-        <div class="eachpost">
-          <img src="{{asset('template/images/couple1.jpg')}}">
-          <a href="#!">ហេតុអ្វីស្រឡាញ់គ្នាចាំបាច់ Private តែពីរនាក់?</a>
-          <i class="fas fa-heart"></i> <span style="color: grey;">4K</span>
-          <span class="article_date regular_font-12">
-                <span>
-                  <img src="{{asset('template/images/ic_time.png')}}">
-                  <small> 2 ថ្ងៃមុន</small>
-                </span>
-          </span>
-          <div class="clearfix"></div>
-        </div>
-        <div class="eachpost">
-          <img src="{{asset('template/images/couple10.jpg')}}">
-          <a href="#!">ធ្វើយ៉ាងណាដើម្បីបំភ្លេចគេបាន?</a>
-          <i class="fas fa-heart"></i> <span style="color: grey;">3.4K</span>
-          <span class="article_date regular_font-12">
-                <span>
-                  <img src="{{asset('template/images/ic_time.png')}}">
-                  <small> 3 ថ្ងៃមុន</small>
-                </span>
-          </span>
-          <div class="clearfix"></div>
-        </div>
-      </div>
-    </div> -->
-    
+    </div>    
   </div> 
 </section> 
 @endsection

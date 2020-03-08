@@ -2,17 +2,17 @@
 @section('block')
 <div class="question">
   <!-- style1 -->
-  @if($cate == 'couple')
+  @if($cate == 'thing')
   <img src="{{asset('template/images/blog-3.jpg')}}" class="bannerCarousel">
   <div class="slash_archive">
       <a href="#" class="menuslash">Home <span style="color: #000;margin-top: -1px;">></span> </a><a href="#" class="menuslash"> Things </a>
   </div>
-  @elseif($cate == 'broken')
+  @elseif($cate == 'technology')
   <img src="{{asset('template/images/blog-5.jpg')}}" class="bannerCarousel">
   <div class="slash_archive archivebroke">
           <a href="#" class="menuslash">Home <span style="color: #000;margin-top: -1px;">></span> </a><a href="#" class="menuslash"> Technology </a>
       </div>
-  @elseif($cate == 'marry')
+  @elseif($cate == 'travel')
     <img src="{{asset('template/images/blog-6.jpg')}}" class="bannerCarousel">
     <div class="slash_archive archivemarry">
           <a href="#" class="menuslash">Home <span style="color: #000;margin-top: -1px;">></span> </a><a href="#" class="menuslash"> Travel </a>
@@ -24,8 +24,8 @@
     <!-- category 1 -->
     <section>
       <div class="row">
-      	@if($cate == 'couple')
-		  @foreach($couple as $art)
+      	@if($cate == 'technology')
+		  @foreach($technology as $art)
 		  <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
           <!-- Card -->
           <div class="card">
@@ -51,15 +51,13 @@
 
               </p>
             <!-- Button -->
-            
-
           </div>
           </div>
           <!-- Card -->
         </div>
 		  @endforeach
-		@elseif($cate == 'broken')
-		 @foreach($broken as $art)
+		@elseif($cate == 'thing')
+		 @foreach($thing as $art)
       <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
           <!-- Card -->
           <div class="card">
@@ -93,8 +91,8 @@
         </div>
       @endforeach
 
-		@elseif($cate == 'marry')
-		    @foreach($marry as $art)
+		@elseif($cate == 'travel')
+		    @foreach($travel as $art)
       <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
           <!-- Card -->
           <div class="card">

@@ -8,17 +8,17 @@ use DB;
 class HomeController extends Controller
 {
     public function index(){
-    	$data['sad'] = DB::table('articles')
+    	$data['thing'] = DB::table('articles')
     						->where('cate_id',2)
     						->orderby('id','desc')
     						->take(5)
     						->get();
-    	$data['couple'] = DB::table('articles')
+    	$data['travel'] = DB::table('articles')
     						->where('cate_id',1)
     						->orderby('id','asc')
     						->take(6)
     						->get();
-		$data['marry'] = DB::table('articles')
+		$data['technology'] = DB::table('articles')
 							->where('cate_id',3)
 							->orderby('id','asc')
 							->take(5)
@@ -28,26 +28,26 @@ class HomeController extends Controller
     public function archive($category){
         $data['cate']  = $category;
 
-        if($category == 'couple'){
-            $data['couple'] = DB::table('articles')
+        if($category == 'travel'){
+            $data['travel'] = DB::table('articles')
                                 ->where('cate_id',1)
                                 ->orderby('id','desc')
                                 ->get();
 
             return view('archive',$data);
 
-        }else if($category == 'broken'){
+        }else if($category == 'thing'){
             
-            $data['broken'] = DB::table('articles')
+            $data['thing'] = DB::table('articles')
                             ->where('cate_id',2)
                             ->orderby('id','asc')
                             ->get();
 
             return view('archive',$data);
 
-        }else if($category == 'marry'){
+        }else if($category == 'technology'){
 
-            $data['marry'] = DB::table('articles')
+            $data['technology'] = DB::table('articles')
                                 ->where('cate_id',3)
                                 ->orderby('id','asc')
                                 ->get();
@@ -55,7 +55,7 @@ class HomeController extends Controller
 
         }else{
 
-            $data['couple'] = DB::table('articles')
+            $data['travel'] = DB::table('articles')
                                 ->where('cate_id',1)
                                 ->orderby('id','asc')
                                 ->get();
@@ -74,12 +74,12 @@ class HomeController extends Controller
                             ->get();
        
         if($data['detail'][0]->cate_id==1){
-            $cate='couple';
+            $cate='travel';
         }else if($data['detail'][0]->cate_id == 2){
-            $cate='broken';
+            $cate='thing';
             
         }else if ($data['detail'][0]->cate_id == 3){
-            $cate='marry';
+            $cate='technology';
         }
         return view('single')->with('detail',$data['detail'])
                             ->with('comment', $comment)
