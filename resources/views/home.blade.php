@@ -136,7 +136,9 @@
 
             <!-- Card content -->
             <div class="card-body">
+            <a href="{{url('detail',$art->id)}}">
               <button class="btn-floating btn-primary morebutton"><i class="fas fa-angle-right"></i></button>
+            </a>
               <!-- Title -->
               <h4 class="card-title">{{$art->title}}</h4>
               <!-- Text -->
@@ -181,8 +183,11 @@
 
                         <!-- Card content -->
                         <div class="card-body">
-                          <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i>              <a href="{{url('detail',$art->id)}}">
-</button>
+                        <a href="{{url('detail',$technology[$i]->id)}}">
+                          <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i>              
+                            <a href="{{url('detail',$art->id)}}">
+                          </button>
+                        </a>
                           <!-- Title -->
                           <h4 class="card-title">{{ $technology[0]->title}}</h4>
                           <!-- Text -->
@@ -215,7 +220,9 @@
 
                         <!-- Card content -->
                         <div class="card-body">
-                          <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i></button>
+                        <a href="{{url('detail',$technology[$i]->id)}}">
+                          <button class="btn-floating btn-primary morebutton btnbroken"><i class="fas fa-angle-right"></i></button>
+                        </a> 
                           <!-- Title -->
                           <h4 class="card-title">{{ $technology[0]->title}}</h4>
                           <!-- Text -->
@@ -236,7 +243,7 @@
               <!-- Card -->
               <div class="card nearitem nearitem">
                 <!-- Card image -->
-                <div class="view zoom overlay" style="    height: 500px;">
+                <div class="view zoom overlay">
                     <img class="card-img-top" src="/storage/<?php echo $technology[2]->image; ?>" alt="Card image cap">
                     <a href="{{url('detail',$technology[2]->id)}}">
                     <div class="mask rgba-white-slight"></div>
@@ -245,7 +252,9 @@
 
                 <!-- Card content -->
                 <div class="card-body">
-                    <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i></button>
+                <a href="{{url('detail',$technology[2]->id)}}">
+                    <button class="btn-floating btn-primary morebutton btnbroken"><i class="fas fa-angle-right"></i></button>
+                </a> 
                     <!-- Title -->
                     <h4 class="card-title">{{ $technology[2]->title}}</h4>
                         <!-- Text -->
@@ -276,7 +285,9 @@
 
                         <!-- Card content -->
                         <div class="card-body">
-                          <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i></button>
+                        <a href="{{url('detail',$technology[$i]->id)}}">
+                          <button class="btn-floating btn-primary morebutton btnbroken" href="{{url('detail',$technology[$i]->id)}}" ><i class="fas fa-angle-right"></i></button>
+                        </a>
                           <!-- Title -->
                           <h4 class="card-title">{{ $technology[0]->title}}</h4>
                           <!-- Text -->
@@ -306,8 +317,10 @@
 
                 <!-- Card content -->
                 <div class="card-body">
-                    <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i></button>
-                    <!-- Title -->
+                <a href="{{url('detail',$technology[2]->id)}}">    
+                  <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i></button>
+                </a>  
+                <!-- Title -->
                     <h4 class="card-title">{{ $technology[2]->title}}</h4>
                         <!-- Text -->
                         <p class="card-text">
@@ -336,7 +349,9 @@
 
                         <!-- Card content -->
                         <div class="card-body">
-                          <button class="btn-floating btn-primary morebutton btnbroken" ><i class="fas fa-angle-right"></i></button>
+                        <a href="{{url('detail',$technology[$i]->id)}}">
+                          <button class="btn-floating btn-primary morebutton btnbroken" href="{{url('detail',$technology[$i]->id)}}"><i class="fas fa-angle-right"></i></button>
+                        </a>  
                           <!-- Title -->
                           <h4 class="card-title">{{ $technology[0]->title}}</h4>
                           <!-- Text -->
@@ -384,7 +399,9 @@
 
                   <!-- Card content -->
                   <div class="card-body">
-                    <button class="btn-floating btn-primary morebutton btnmarry" ><i class="fas fa-angle-right"></i></button>
+                  <a href="{{url('detail',$travel[$i]->id)}}">
+                    <button class="btn-floating btn-primary morebutton btnmarry" href="{{url('detail',$travel[$i]->id)}}" ><i class="fas fa-angle-right"></i></button>
+                  </a>  
                     <!-- Title -->
                     <h4 class="card-title">{{ $travel[$i]->title}}</h4>
                     <!-- Text -->
@@ -417,7 +434,9 @@
 
             <!-- Card content -->
             <div class="card-body">
-              <button class="btn-floating btn-primary morebutton btnmarry" ><i class="fas fa-angle-right"></i></button>
+            <a href="{{url('detail',$travel[4]->id)}}">
+              <button class="btn-floating btn-primary morebutton btnmarry" href="{{url('detail',$travel[4]->id)}}"><i class="fas fa-angle-right"></i></button>
+            </a>  
               <!-- Title -->
               <h4 class="card-title">{{ $travel[4]->title}}</h4>
                 <!-- Text -->

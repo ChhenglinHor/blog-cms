@@ -19,7 +19,7 @@
                     border-bottom:none;
                 }
                 .imgprofile{
-                        background-image: url(http://localhost:8000/storage/avatars/1_avatar1583043178.jpg);
+                        /* background-image: url(http://localhost:8000/storage/avatars/1_avatar1583043178.jpg); */
                         width: 100px;
                         height: 100px;
                         background-size: cover;
@@ -74,7 +74,7 @@
                     </div>
                     <div class="form-group">
                         <input type="file" class="form-control-file" name="avatar" id="avatarFile" aria-describedby="fileHelp">
-                        <small id="fileHelp" class="form-text text-muted">Please upload a valid image file. Size of image should not be more than 2MB.</small>
+                        <small id="fileHelp" class="form-text text-muted">Size of image should not be more than 2MB.</small>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
