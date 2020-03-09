@@ -22,7 +22,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="archive/thing">Things
+            <a class="nav-link" href="archive/design">Design
             </a>
           </li>
           <li class="nav-item">
@@ -117,12 +117,12 @@
     <div class="container">
       <!-- category 1 -->
       <section>
-        <h2 class="title_cloth">Things</h2>
+        <h2 class="title_cloth">Design</h2>
         <div class="border_title">
-          <span><a href="/archive/thing">More</a></span>
+          <span><a href="/archive/design">More</a></span>
         </div>
         <div class="row">
-          @foreach($thing as $art)
+          @foreach($design as $art)
           <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
             <!-- Card -->
             <div class="card">
@@ -194,7 +194,7 @@
                           <p class="card-text">
                             
                             <?php 
-                              $str  = substr(strip_tags($thing[$i]->des), 0,330);
+                              $str  = substr(strip_tags($design[$i]->des), 0,330);
                             echo $str.'...'; ?>
 
                           </p>

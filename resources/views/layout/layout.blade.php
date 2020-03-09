@@ -40,7 +40,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{url('archive/thing')}}">Things
+            <a class="nav-link" href="{{url('archive/design')}}">Design
             </a>
           </li>
           <li class="nav-item">

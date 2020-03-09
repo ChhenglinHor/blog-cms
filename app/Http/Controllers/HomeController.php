@@ -8,7 +8,7 @@ use DB;
 class HomeController extends Controller
 {
     public function index(){
-    	$data['thing'] = DB::table('articles')
+    	$data['design'] = DB::table('articles')
     						->where('cate_id',2)
     						->orderby('id','desc')
     						->take(5)
@@ -36,9 +36,9 @@ class HomeController extends Controller
 
             return view('archive',$data);
 
-        }else if($category == 'thing'){
+        }else if($category == 'design'){
             
-            $data['thing'] = DB::table('articles')
+            $data['design'] = DB::table('articles')
                             ->where('cate_id',2)
                             ->orderby('id','asc')
                             ->get();
@@ -76,7 +76,7 @@ class HomeController extends Controller
         if($data['detail'][0]->cate_id==1){
             $cate='travel';
         }else if($data['detail'][0]->cate_id == 2){
-            $cate='thing';
+            $cate='design';
             
         }else if ($data['detail'][0]->cate_id == 3){
             $cate='technology';

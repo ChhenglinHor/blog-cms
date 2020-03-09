@@ -8,8 +8,8 @@
     </a>
     @if($cate == 'technology')
     <a href="#" class="menuslash" style="text-decoration: underline;">Technology</a>
-    @elseif($cate == 'thing')
-    <a href="#" class="menuslash" style="text-decoration: underline;">Things</a>
+    @elseif($cate == 'design')
+    <a href="#" class="menuslash" style="text-decoration: underline;">Design</a>
     @elseif($cate == 'travel')
     <a href="#" class="menuslash" style="text-decoration: underline;">Travel</a>
     @endif

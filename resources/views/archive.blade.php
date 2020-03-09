@@ -2,10 +2,10 @@
 @section('block')
 <div class="question">
   <!-- style1 -->
-  @if($cate == 'thing')
+  @if($cate == 'design')
   <img src="{{asset('template/images/blog-3.jpg')}}" class="bannerCarousel">
   <div class="slash_archive">
-      <a href="#" class="menuslash">Home <span style="color: #000;margin-top: -1px;">></span> </a><a href="#" class="menuslash"> Things </a>
+      <a href="#" class="menuslash">Home <span style="color: #000;margin-top: -1px;">></span> </a><a href="#" class="menuslash"> Design </a>
   </div>
   @elseif($cate == 'technology')
   <img src="{{asset('template/images/blog-5.jpg')}}" class="bannerCarousel">
@@ -56,8 +56,8 @@
           <!-- Card -->
         </div>
 		  @endforeach
-		@elseif($cate == 'thing')
-		 @foreach($thing as $art)
+		@elseif($cate == 'design')
+		 @foreach($design as $art)
       <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
           <!-- Card -->
           <div class="card">
