@@ -85,4 +85,9 @@ class HomeController extends Controller
                             ->with('comment', $comment)
                             ->with('cate', $cate);
     }
+
+    public function about()
+    {
+        return view('about');
+    }
 }

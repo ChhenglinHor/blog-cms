@@ -47,6 +47,10 @@
             <a class="nav-link" href="{{url('archive/travel')}}">Travel
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{url('about')}}">About
+            </a>
+          </li>
         </ul>
 
         <!-- Right -->

@@ -16,6 +16,7 @@ Route::get('/archive/{category}','HomeController@archive');
 Route::get('/detail/{id}','HomeController@detail');
 
 Route::post('comment', 'CommentController@store');
+Route::get('/about','HomeController@about')->name('about');
 
 
 /*user register*/
