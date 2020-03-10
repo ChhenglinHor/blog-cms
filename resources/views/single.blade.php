@@ -55,9 +55,9 @@
             <div class="clearfix"></div>
             <div class="text-center">
                 @if(!$comment->isEmpty())
-                <p>COMMENT</p>
+                <p style="font-weight: bold; font-size: large; padding-top:20px">COMMENT</p>
                     <div class="linebreak" style="width: auto;">
-                      <img src="{{asset('template/images/linebreak.png')}}">
+                      <!-- <img src="{{asset('template/images/linebreak.png')}}"> -->
                     </div>
                     <br>
                     @foreach($comment as $c)
@@ -81,11 +81,11 @@
                     <hr>
                 @endif
                 @if( auth()->check() )
-                <p>LEAVE YOUR COMMENTS</p>
+                <p style="font-weight: bold; font-size: large;">LEAVE YOUR COMMENT</p>
                 <div class="linebreak" style="width: auto;">
-                  <img src="{{asset('template/images/linebreak.png')}}">
+                  <!-- <img src="{{asset('template/images/linebreak.png')}}"> -->
                 </div>
-                <div class="comment text-left" style="padding-left: 10px;">
+                <div class="comment text-left" style="padding-left: 10px; padding-top:20px">
                   <div class="row">
                     <div class="col-2">       
                         <div class="avasmal mx-auto white">
