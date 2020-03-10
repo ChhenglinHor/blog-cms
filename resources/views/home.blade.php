@@ -357,7 +357,7 @@
                           <button class="btn-floating btn-primary morebutton btnbroken" href="{{url('detail',$technology[$i]->id)}}"><i class="fas fa-angle-right"></i></button>
                         </a>  
                           <!-- Title -->
-                          <h4 class="card-title">{{ $technology[0]->title}}</h4>
+                          <h4 class="card-title">{{ $technology[$i]->title}}</h4>
                           <!-- Text -->
                           <p class="card-text">
                             

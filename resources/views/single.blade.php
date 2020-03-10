@@ -69,7 +69,7 @@
                           </div>
                         </div>
                         <div class="col-10 avasmaltext">
-                          <p><b>{{$c->name}}</b></p>
+                          <p style="font-size: 20px; color:darkblue">{{$c->name}}</p>
                           <p style="margin-top:10px">{{$c->text}}</p>
                           
                           <br>
