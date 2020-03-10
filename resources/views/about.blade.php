@@ -12,7 +12,7 @@
 <div class="row">
   <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
     <div class="card">
-      <img class="card-img-top" src="template/images/1.jpeg" alt="">
+      <img class="card-img-top" src="template/images/boy.jpg" alt="">
       <div class="container">
         <h2>Taing Hang Kheang</h2>
         <p class="title">CEO</p>
@@ -23,7 +23,7 @@
 
   <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
     <div class="card">
-      <img class="card-img-top" src="template/images/2.jpeg" alt="">
+      <img class="card-img-top" src="template/images/boy.jpg" alt="">
       <div class="container">
         <h2>Ny Thyatdora</h2>
         <p class="title">Co-Founder</p>
@@ -34,7 +34,7 @@
 
   <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
     <div class="card">
-      <img class="card-img-top" src="template/images/3.jpeg" alt="">
+      <img class="card-img-top" src="template/images/boy.jpg" alt="">
       <div class="container">
         <h2>Chum Thea</h2>
         <p class="title">Co-Founder</p>
@@ -45,7 +45,7 @@
 
   <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
     <div class="card">
-      <img class="card-img-top" src="template/images/1.jpeg" alt="">
+      <img class="card-img-top" src="template/images/boy.jpg" alt="">
       <div class="container">
         <h2>Sok Peav</h2>
         <p class="title">Co-Founder</p>
@@ -56,7 +56,7 @@
 
   <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
     <div class="card">
-      <img class="card-img-top" src="template/images/2.jpeg" alt="">
+      <img class="card-img-top" src="template/images/girl.jpg" alt="">
       <div class="container">
         <h2>Hor Chhenglin</h2>
         <p class="title">Co-Founder</p>
@@ -67,7 +67,7 @@
 
   <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
     <div class="card">
-      <img class="card-img-top" src="template/images/3.jpeg" alt="">
+      <img class="card-img-top" src="template/images/girl.jpg" alt="">
       <div class="container">
         <h2>Rous Sereypanha</h2>
         <p class="title">Co-Founder</p>
@@ -78,7 +78,7 @@
 
   <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
     <div class="card">
-      <img class="card-img-top" src="template/images/1.jpeg" alt="">
+      <img class="card-img-top" src="template/images/boy.jpg" alt="">
       <div class="container">
         <h2>Thay Channarith</h2>
         <p class="title">Co-Founder</p>
@@ -89,7 +89,7 @@
 
   <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
     <div class="card">
-      <img class="card-img-top" src="template/images/2.jpeg" alt="">
+      <img class="card-img-top" src="template/images/boy.jpg" alt="">
       <div class="container">
         <h2>Chou Kuyleng</h2>
         <p class="title">Co-Founder</p>
@@ -100,7 +100,7 @@
 
   <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
     <div class="card">
-      <img class="card-img-top" src="template/images/3.jpeg" alt="">
+      <img class="card-img-top" src="template/images/boy.jpg" alt="">
       <div class="container">
         <h2>Ngoy Mithona</h2>
         <p class="title">Co-Founder</p>
@@ -111,7 +111,7 @@
 
   <div class="col-lg-4 col-md-4 col-sm-12 col-12 wow fadeInLeft flex-center nearitem">
     <div class="card">
-      <img class="card-img-top" src="template/images/3.jpeg" alt="">
+      <img class="card-img-top" src="template/images/boy.jpg" alt="">
       <div class="container">
         <h2>Nin Dara Ek</h2>
         <p class="title">Co-Founder</p>
